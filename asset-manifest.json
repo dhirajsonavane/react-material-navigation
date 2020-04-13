@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-material-navigation/static/css/main.f2068db4.chunk.css",
+    "main.js": "/react-material-navigation/static/js/main.4dcb3f5b.chunk.js",
+    "main.js.map": "/react-material-navigation/static/js/main.4dcb3f5b.chunk.js.map",
+    "runtime-main.js": "/react-material-navigation/static/js/runtime-main.96114f91.js",
+    "runtime-main.js.map": "/react-material-navigation/static/js/runtime-main.96114f91.js.map",
+    "static/js/2.c002111a.chunk.js": "/react-material-navigation/static/js/2.c002111a.chunk.js",
+    "static/js/2.c002111a.chunk.js.map": "/react-material-navigation/static/js/2.c002111a.chunk.js.map",
+    "index.html": "/react-material-navigation/index.html",
+    "precache-manifest.700407ed2f4d6926898af03432221e12.js": "/react-material-navigation/precache-manifest.700407ed2f4d6926898af03432221e12.js",
+    "service-worker.js": "/react-material-navigation/service-worker.js",
+    "static/css/main.f2068db4.chunk.css.map": "/react-material-navigation/static/css/main.f2068db4.chunk.css.map",
+    "static/js/2.c002111a.chunk.js.LICENSE.txt": "/react-material-navigation/static/js/2.c002111a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96114f91.js",
+    "static/js/2.c002111a.chunk.js",
+    "static/css/main.f2068db4.chunk.css",
+    "static/js/main.4dcb3f5b.chunk.js"
+  ]
+}
