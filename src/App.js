@@ -1,26 +1,52 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Sidebar from "./component/Sidebar";
+import NavBar from "./shared/NavBar";
+import Footer from "./shared/Footer";
 
-function App() {
+const items = [
+  { name: "home", label: "Home" },
+  {
+    name: "billing",
+    label: "Billing",
+    items: [
+      { name: "statements", label: "Statements" },
+      { name: "reports", label: "Reports" },
+    ],
+  },
+  {
+    name: "settings",
+    label: "Settings",
+    items: [
+      { name: "profile", label: "Profile" },
+      { name: "insurance", label: "Insurance" },
+      {
+        name: "notifications",
+        label: "Notifications",
+        items: [
+          { name: "email", label: "Email" },
+          {
+            name: "desktop",
+            label: "Desktop",
+            items: [
+              { name: "schedule", label: "Schedule" },
+              { name: "frequency", label: "Frequency" },
+            ],
+          },
+          { name: "sms", label: "SMS" },
+        ],
+      },
+    ],
+  },
+];
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Sidebar items={items} />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
